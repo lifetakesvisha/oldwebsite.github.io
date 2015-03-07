@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Fauna+One);
 
-.body {
+body {
    font: 20px 'Fauna One';
    color: red;
 }
@@ -13,6 +13,23 @@ div#header-title{
 nav {
    display: inline-block;
    float:right;
-   padding: 100px 100px 100px 100px;
+  /* padding: 100px 100px 100px 100px;*/
+}
+nav ul{
+   padding: 0;
+   margin: 0;
+}
+nav li{
+   display: inline-block; /*links on the same line*/
+}
+nav a:link{
+
+}
+nav a:visited{
+   color: purple; /* person has visited this page*/
+   text-decoration: none; /* no underline on link*/
+}
+nav a:hover{
+   
 }
 
