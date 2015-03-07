@@ -41,7 +41,7 @@ main {
 section#welcome {
    width: 100%;
    height: 50px;
-   background-image: url('https://c1.staticflickr.com/3/24022117969746_8055fa679e.jpg');
+   background-image: url('welcome_white_tiles.png');
    background-position: center;
 }
 div#welcome-text {
