@@ -8,9 +8,11 @@
 div#header-title{
    display: inline-block;
    float: left;
+   padding: 100px 100px 100px 100px;
 }
 nav {
    display: inline-block;
    float:right;
+   padding: 100px 100px 100px 100px;
 }
 
