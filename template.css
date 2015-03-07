@@ -1,25 +1,31 @@
 @import url(http://fonts.googleapis.com/css?family=Fauna+One);
 
 body {
+   margin: 0 auto;
    height: 100%;
    font: 20px 'Fauna One';
    background-image: url('bedge_grunge.png');
 }
 header {
-   height: 50px;   
+   height: 50px;
+   position: fixed;
+   width: 100%;
+   z-index: 2;
+   background-image: url('bedge_grunge.png');
 }
 div#header-title{
    display: inline-block;
    float: left;
-   margin: 20px;
-   padding: 0px 100px 100px 100px;
+   padding: 10px;
 }
 nav {
    display: inline-block;
    float:right;
-   padding: 0px 100px 100px 100px;
+   padding: 10px;
 }
 nav ul{
+   padding: 0;
+   margin: 0;
 
 }
 nav li{
@@ -37,19 +43,53 @@ nav a:hover{
    
 }
 main {
-   height: 50px;
+   padding-top: 50px;
 }
 section#welcome {
    width: 100%;
-   height: 50px;
+   height: 200px;
    background-image: url('dark_wood.png');
    background-position: center;
+   position: relative;
 }
 div#welcome-text {
    color: white;
    width: 100%;
    position: absolute;
    text-align: center;
-    
+   top: 50%;
+   
+}
+section#about h1{
+   font-size: 2em;
+   color: #FFFFFF;
+}
+div.three-items {
+   display: block;
+   text-align: center;
+   width: 100%;
+}
+div.an-item{
+   display: inline-block;
+   width: 33%;
+}
+section#fun-facts h1 {
+   color: #FFFFFF;
+   font-size: 2em;
 }
 
+div.one-text, div.two-text, div.three-text {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   background-color: red;
+   position: relative;
+   margin: 0 auto;
+}
+
+div.some-text {
+   position: absolute;
+   width: 100%;
+   text-align: center;
+   top: 40%;
+}
