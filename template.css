@@ -3,6 +3,7 @@
 body {
    font: 20px 'Fauna One';
    color: red;
+   backgroud-image: url('bedge_grunge.png') ;
 }
 header {
    height: 50px;
