@@ -60,6 +60,9 @@ div#welcome-text {
    top: 50%;
    
 }
+section#about {
+   padding-left: 96px;
+}
 section#about h1{
    font-size: 2em;
    color: #FFFFFF;
@@ -76,6 +79,7 @@ div.an-item{
 section#fun-facts h1 {
    color: #FFFFFF;
    font-size: 2em;
+   padding-left: 96px;
 }
 
 div.one-text, div.two-text, div.three-text {
@@ -85,6 +89,16 @@ div.one-text, div.two-text, div.three-text {
    background-color: red;
    position: relative;
    margin: 0 auto;
+   color: white;
+}
+div.one-text a:link, div.one-text a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+div.one-text a:hover, div.two-text a:hover, div.three-text a:hover {
+   opacity: 0.8;
+   text-decoration: none;
 }
 
 div.some-text {
@@ -93,3 +107,4 @@ div.some-text {
    text-align: center;
    top: 40%;
 }
+
