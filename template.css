@@ -4,3 +4,13 @@
    font: 20px 'Fauna One';
    color: red;
 }
+
+div#header-title{
+   display: inline-block;
+   float: left;
+}
+nav {
+   display: inline-block;
+   float:right;
+}
+
