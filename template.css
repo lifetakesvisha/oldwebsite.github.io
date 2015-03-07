@@ -13,14 +13,14 @@ div#header-title{
 nav {
    display: inline-block;
    float:right;
-  /* padding: 100px 100px 100px 100px;*/
+   padding: 0px 100px 100px 100px;
 }
 nav ul{
 
 }
 nav li{
    display: inline-block; /*links on the same line*/
-   margin-left: 20px; 
+   padding-right: 10px; 
 }
 nav a:link{
    text-decoration: none;
