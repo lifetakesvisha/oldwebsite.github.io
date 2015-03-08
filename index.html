@@ -4,6 +4,23 @@
       <meta charset="UTF-8">
       <title>Welcome to my website!</title>
       <link rel="stylesheet" type="text/css" href="template.css">
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	  <script type="text/javascript">
+		$(document).ready(function() {
+			console.log('Sup');
+			var counter = 0;
+
+			$('#click-video').click(function() {
+				if (counter % 2 == 0) {
+					$('#my-video').css({'display': 'block'});
+				} else {
+					$('#my-video').css({'display': 'none'});
+				}
+		
+				counter++;
+			});
+		});
+	  </script>
    </head>
    <body>
       <header>
@@ -40,7 +57,7 @@
 	    <div class="three-items">
 	       <div class="an-item">
 	          <div class="one-text">
-		    <div class="some-text"><a target="_blank" href="http://www.youtube.com/watch?v=UJ43iOfSo08">Videos</a></div>
+		    <div class="some-text"><span id="click-video">Videos</span></div>
 		  </div>
 	       </div>
 	       <div class="an-item">
@@ -54,6 +71,9 @@
 		  </div>
 	       </div>
 	    </div>
+		<div id="my-video" style="display: none">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/UJ43iOfSo08" frameborder="0" allowfullscreen></iframe>
+		</div>
 	 </section>
 
       </main>
