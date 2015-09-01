@@ -4,13 +4,58 @@ html,body {
 	padding: 0;
 }
 #contentWrapper{
-	width: 300px;
-    margin: 0 auto;
+	width: 500px;
+    margin: auto;
     background: #fff;
-    height: 500px;
+    height: 157px;
+	text-align: center;
 }
-
+h1{
+	padding-top: 30px;
+	font-family: Georgia,Times,"Times New Roman",serif;
+}
+h4{
+	font-family: Georgia,Times,"Times New Roman",serif
+}
+p{
+	font-family: Georgia,Times,"Times New Roman",serif;
+}
 #redBar {
 	height: 100px;
 	background:#f64747;
+	color:#fff;
+	font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-size: 1.6em;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+}
+#aboutMe{
+	font-size: 1.4em;
+	text-align: center;
+	vertical-align: middle;
+	font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+}
+#description{
+	width: 500px;
+	margin: 0 auto;
+}
+#previousJobs{
+	margin:0px auto; 
+	width:70%;
+}
+#jobs-column1{
+	float:left;
+	margin:0; 
+	width:33%;
+}
+#jobs-column2{
+	float:left;
+	margin:0; 
+	width:33%;
+}
+#jobs-column3{
+	float:left;
+	margin:0; 
+	width:33%;
 }
