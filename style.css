@@ -20,6 +20,13 @@ h4{
 p{
 	font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
 }
+#hello{
+	width: 300px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
 #redBar {
 	height: 100px;
 	background:#f64747;
@@ -34,7 +41,8 @@ p{
 	font-size: 1.4em;
 	text-align: center;
 	vertical-align: middle;
-	font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+	font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+	
 }
 #description{
 	width: 500px;
