@@ -1,5 +1,16 @@
 
+html,body {
+	margin: 0; 
+	padding: 0;
+}
+#contentWrapper{
+	width: 300px;
+    margin: 0 auto;
+    background: #fff;
+    height: 500px;
+}
 
-span{
- color:#f64747;
+#redBar {
+	height: 100px;
+	background:#f64747;
 }
