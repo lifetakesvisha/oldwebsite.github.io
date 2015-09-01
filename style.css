@@ -21,6 +21,7 @@ p{
 	font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
 }
 #hello{
+	padding-top: 30px;
 	width: 300px;
 	height: auto;
 	margin-left: auto;
