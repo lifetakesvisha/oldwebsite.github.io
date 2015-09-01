@@ -18,7 +18,7 @@ h4{
 	font-family: Georgia,Times,"Times New Roman",serif
 }
 p{
-	font-family: Georgia,Times,"Times New Roman",serif;
+	font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
 }
 #redBar {
 	height: 100px;
@@ -41,21 +41,40 @@ p{
 	margin: 0 auto;
 }
 #previousJobs{
-	margin:0px auto; 
-	width:70%;
+	width:500px;
+	margin:0 auto;
 }
 #jobs-column1{
 	float:left;
 	margin:0; 
-	width:33%;
+	padding-right: 10px;
+	width:100px%;
 }
 #jobs-column2{
 	float:left;
 	margin:0; 
-	width:33%;
+	padding-right: 10px;
+	width:100%;
 }
 #jobs-column3{
 	float:left;
 	margin:0; 
-	width:33%;
+	padding-right: 10px;
+	width:100%;
 }
+#volunteer{
+	margin:0px auto; 
+	width:500px;
+}
+#vol-column1{
+	float:left;
+	margin:0; 
+	padding-right: 10px;
+	width:50%;
+}
+#vol-column2{
+	float: left;
+	margin: 0;
+	width: 50%;
+}
+
